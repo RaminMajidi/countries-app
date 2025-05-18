@@ -1,0 +1,9 @@
+{
+    "languages": {
+        "fa": "Persain",
+        "en": "English"
+    },
+    "app":{
+        "name":"countries App"
+    }
+}

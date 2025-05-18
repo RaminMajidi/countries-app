@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: white;
+  --foreground: black;
+
+  --font-sans: 'Arial', sans-serif;
+  --font-mono: 'Courier New', monospace;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}

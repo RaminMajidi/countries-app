@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: white;
-  --foreground: black;
+  --background: #cdcdcd;
+  --foreground: #222831;
+  /* --color-primary:#2b7fff;
+  --color-secondary:#F2F2F2; */
 
   --font-sans: 'Arial', sans-serif;
   --font-mono: 'Courier New', monospace;
 }
 
 [data-theme='dark'] {
-  --background: black;
-  --foreground: white;
+  --background: #222831;
+  --foreground: #cdcdcd;
 }
 
 body {

@@ -1,9 +1,9 @@
 'use client'
 import { useTheme } from "next-themes"
 import "./ThemeSwitch.css"
+
 const ThemeSwitch = () => {
     const { theme, setTheme } = useTheme();
-    console.log(theme);
 
     const darkModeHandler = (value: boolean) => {
         value ? setTheme("light") : setTheme("dark")

@@ -5,5 +5,11 @@
     },
     "app":{
         "name":"countries App"
+    },
+    "errors":{
+        "server":"Something went wrong!"
+    },
+    "btns":{
+        "again":"Try again"
     }
 }

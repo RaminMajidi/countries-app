@@ -2,9 +2,11 @@
 import { useState, useTransition } from 'react';
 import { Locale } from '@/i18n/config';
 import { setUserLocale } from '@/services/local';
-import HeroIcon from './HeroIcon';
 import { useLocale } from 'next-intl';
 import CircleLoding from './CircleLoding.tsx';
+import HeroIcon from './HeroIcon';
+
+
 
 
 function LocalSwitcher() {
